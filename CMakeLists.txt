@@ -28,7 +28,7 @@ if(_WIN_)
     option( BUILD_EXTERN_GLEW    "Automatically download, build and compile GLEW" ON)
     option( BUILD_EXTERN_LIBPNG  "Automatically download, build and compile libpng" ON)
     option( BUILD_EXTERN_LIBJPEG "Automatically download, build and compile libjpeg" ON)
-    option( MSVC_USE_STATIC_CRT  "Use static C Runtime with MSVC, /MT instead of /MD" ON)
+    option( MSVC_USE_STATIC_CRT  "Use static C Runtime with MSVC, /MT instead of /MD" OFF)
 
     # Make sure there are no erroneous C Runtime flags
     list(APPEND FLAG_VARS
